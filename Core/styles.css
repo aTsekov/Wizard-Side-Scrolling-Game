@@ -30,4 +30,15 @@ body {
     background-color: black;
     color: rgb(241, 208, 167);
     text-align: center;
+} 
+.hide{
+    display: none;
+}
+.wizard{
+    z-index: 100;
+    position: absolute;
+    width: 82px;
+    height: 100px;
+    background-image: url(./images/wizard.png);
+    background-size: cover;
 }
